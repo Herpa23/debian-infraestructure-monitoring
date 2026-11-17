@@ -6,6 +6,7 @@ Este repositorio documenta 00.READMEla implementación de un entorno de observab
 
 Para mantener el entorno organizado y reproducible, todo el stack se aloja en el directorio `/opt/monitoring` en el nodo central (`debian-monitor`)
 
+```plaintext 
 /opt/monitoring/
 ├── docker-compose.yml
 ├── grafana/
@@ -15,6 +16,7 @@ Para mantener el entorno organizado y reproducible, todo el stack se aloja en el
 ├── loki-config.yaml
 ├── loki-data/
 └── prometheus.yml
+```
 
 ### Configuración de Prometheus (`prometheus.yml`)
 
